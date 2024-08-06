@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fashion One</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navbar section -->
+     <nav class="navbar grid grid-cols-2 justify-evenly lg:grid-cols-3 pl-[15px] pr-[15px] mt-[22px] mb-[32px]">
+        <div class="logo flex  items-center pl-[12px] pr-[12px] ">
+            <img class="w-[103px]" src="assets/flone-logo.png" alt="" width="103px">
+        </div>
+        <ul class="nav-list hidden lg:flex gap-[20px]  justify-center items-center ">
+            <li class="text-[#555252] text-[13px] font-medium">Home</li>
+            <li class="text-[#555252] text-[13px] font-medium">Shop</li>
+            <li class="text-[#555252] text-[13px] font-medium">Collection</li>
+            <li class="text-[#555252] text-[13px] font-medium">Pages</li>
+            <li class="text-[#555252] text-[13px] font-medium">Blog</li>
+            <li class="text-[#555252] text-[13px] font-medium">Contact Us</li>
+        </ul>
+        <div class="icons flex justify-end pl-[12px] pr-[12px]">
+            <ul class="nav-icon-list flex  gap-[30px]  items-center">
+                <li><i class="fa-solid fa-magnifying-glass "></i></li>
+                <li><i class="fa-regular fa-user"></i></li>
+                <li><i class="fa-solid fa-shuffle"></i></li>
+                <li><i class="fa-regular fa-heart"></i></li>
+                <li><i class="fa-solid fa-store"></i></li>
+            </ul>
+        </div>
+     </nav>
+     <!-- Offer Section -->
+     <div class="offer  bg-[#f0e0ff] pb-[80px]">
+        <div class="cont gird grid-cols-1 items-center  justify-center sm:flex sm:justify-between  md:ml-[32px] md:mr-[32px] pl-[12px] pr-[12px]">
+            <div class="pt-[80px] pl-[12px] pr-[12px]">
+                <h3 class="text-2xl font-medium">Smart Products</h3>
+                <h1 class="text-3xl  lg:text-7xl font-normal mt-[6px] mb-[6px] ">Winter Offer</h1>
+                <h1 class="text-3xl lg:text-7xl font-normal mt-[6px] mb-[37px] ">2024 Collection</h1>
+                <div class="btn-shop pt-[10px]">
+                    <a class="uppercase text-base font-normal border border-[#333] pt-[15px] pb-[17px] pl-[35px] pr-[35px] md:pt-[19px] md:pr-[50px] md:pl-[50px] md:pb-[21px]" href="#">Shop Now</a>
+                </div>
+            </div>
+            <div class="image1 pl-[12px] pr-[12px]  ">
+                <img class="w-[501px] sm:w-[576px]" src="assets/fashion one image 1.png" alt="" width="576px">
+            </div>
+        </div>
+     </div>
+     <!-- Support section -->
+      <div class="support grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 pt-[100px] pb-[60px] ml-[32px] mr-[32px]">
+        <div class="shipping flex pl-[12px] pr-[12px]">
+            <div class="shipping-icon mb-[30px] mr-[20px]">
+                <img src="assets/shipping.png" alt="" width="50px">
+            </div>
+            <div class="ship-data">
+                <h5 class="mb-[5px] text-lg font-normal">Free Shipping</h5>
+                <p class="text-sm font-normal text-[#666]">Free shipping on all order</p>
+            </div>
+        </div>
+        <div class="support flex pl-[12px] pr-[12px] mb-[30px]">
+            <div class="support-icon mr-[20px]">
+                <img src="assets/support.png" alt="" width="50px">
+            </div>
+            <div class="support-data">
+                <h5 class="mb-[5px] text-lg font-normal">Support 24/7</h5>
+                <p class="text-sm font-normal text-[#666]">Free shipping on all order</p>
+            </div>
+        </div>
+        <div class="money flex pl-[12px] pr-[12px] mb-[30px]">
+            <div class="money-icon mr-[20px]">
+                <img src="assets/money.png" alt="" width="50px">
+            </div>
+            <div class="money-data">
+                <h5 class="mb-[5px] text-lg font-normal">Money Return</h5>
+                <p class="text-sm font-normal text-[#666]">Free shipping on all order</p>
+            </div>
+        </div>
+        <div class="order flex pl-[12px] pr-[12px] mb-[30px]">
+            <div class="order-icon mr-[20px]">
+                <img src="assets/dicount.png" alt="" width="50px">
+            </div>
+            <div class="order-data">
+                <h5 class="mb-[5px] text-lg font-normal">Order Discount</h5>
+                <p class="text-sm font-normal text-[#666]">Free shipping on all order</p>
+            </div>
+        </div>
+      </div>
+      <!-- product section -->
+       <div class="product pb-[60px]">
+        <div class="section-title text-center">
+            <h2 class="text-3xl font-semibold mb-[10px]">- DAILY DEALS! -</h2>
+        </div>
+        <div class="product-tab flex justify-center pt-[30px] pb-[55px]">
+            <h4 class="text-lg text-[#555] font-medium ml-[11px] mr-[11px] pt-[8px] pb-[8px] pl-[16px] pr-[16px]">New Arrivals</h4>
+            <h4 class="text-lg font-medium ml-[11px] mr-[11px] pt-[8px] pb-[8px] pl-[16px] pr-[16px]">Best Sellers</h4>
+            <h4 class="text-lg text-[#555] font-medium ml-[11px] mr-[11px] pt-[8px] pb-[8px] pl-[16px] pr-[16px]">Sale Items</h4>
+        </div>
+        <div class="product-content grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 ml-[32px] mr-[32px] pl-[12px] pr-[12px]">
+            <div class="prod-images pl-[12px] pr-[12px] mb-[25px]">
+                <img class="w-[100%] lg:w-[276px]" src="assets/fashion prod img 1.jpg" alt="" width="276px">
+                <h3 class="text-center text-base font-normal mt-[20px]">Lorem ipsum fashion female top</h3>
+                <div class="rating text-center mt-[3px] mb-[3px] font-normal ">
+                    <i class="fa-regular fa-star text-[#ffa900]"></i>
+                    <i class="fa-regular fa-star text-[#ffa900]"></i>
+                    <i class="fa-regular fa-star text-[#ffa900]"></i>
+                    <i class="fa-regular fa-star text-[#ffa900]"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <div class="price ml-[9px] mr-[9px]">
+                    <p class="text-center text-[15px] font-medium">&euro;35.6</p>
+                </div>
+            </div>
+            <div class="prod-images pl-[12px] pr-[12px] mb-[25px]">
+                <img class="w-[100%] lg:w-[276px]" src="assets/fashion prod img 2.jpg" alt="" width="276px">
+                <h3 class="text-center text-base font-normal  mt-[20px]">Lorem ipsum fashion jacket</h3>
+                <div class="rating text-center mt-[3px] mb-[3px] font-normal">
+                    <i class="fa-regular fa-star text-[#ffa900]"></i>
+                    <i class="fa-regular fa-star text-[#ffa900]"></i>
+                    <i class="fa-regular fa-star text-[#ffa900]"></i>
+                    <i class="fa-regular fa-star text-[#ffa900]"></i>
+                    <i class="fa-regular fa-star text-[#ffa900]"></i>
+                </div>
+                <div class="price ml-[9px] mr-[9px]">
+                    <p class="text-center text-[15px] font-medium">&euro;26.87 - <span class="line-through">&euro;29.85</span> </p>
+                </div>
+            </div>
+            <div class="prod-images pl-[12px] pr-[12px] mb-[25px]">
+                <img class="w-[100%] lg:w-[276px]" src="assets/fashion prod img 3.jpg" alt="" width="276px">
+                <h3 class="text-center text-base font-normal mt-[20px]">Lorem ipsum kids eight</h3>
+                <div class="rating text-center mt-[3px] mb-[3px] font-normal">
+                    <i class="fa-regular fa-star text-[#ffa900]"></i>
+                    <i class="fa-regular fa-star text-[#ffa900]"></i>
+                    <i class="fa-regular fa-star text-[#ffa900]"></i>
+                    <i class="fa-regular fa-star text-[#ffa900]"></i>
+                    <i class="fa-regular fa-star text-[#ffa900]"></i>
+                </div>
+                <div class="price ml-[9px] mr-[9px]">
+                    <p class="text-center text-[15px] font-medium">&euro;26.87 - <span class="line-through">&euro;29.85</span></p>
+                </div>
+            </div>
+            <div class="prod-images pl-[12px] pr-[12px] mb-[25px]">
+                <img class="w-[100%] lg:w-[276px]" src="assets/fashion prod img 4.jpg" alt="" width="276px">
+                <h3 class="text-center text-base font-normal mt-[20px]">Lorem ipsum jacket</h3>
+                <div class="rating text-center mt-[3px] mb-[3px] font-normal">
+                    <i class="fa-regular fa-star text-[#ffa900]"></i>
+                    <i class="fa-regular fa-star text-[#ffa900]"></i>
+                    <i class="fa-regular fa-star text-[#ffa900]"></i>
+                    <i class="fa-regular fa-star text-[#ffa900]"></i>
+                    <i class="fa-regular fa-star text-[#ffa900]"></i>
+                </div>
+                <div class="price ml-[9px] mr-[9px]">
+                    <p class="text-center text-[15px] font-medium">&euro;19.85</p>
+                </div>
+            </div>
+            <div class="prod-images pl-[12px] pr-[12px] mb-[25px]">
+                <img class="w-[100%] lg:w-[276px]" src="assets/fashion prod img 5.jpg" alt="" width="276px">
+                <h3 class="text-center text-base font-normal mt-[20px]">Lorem ipsum kids six</h3>
+                <div class="rating text-center mt-[3px] mb-[3px] font-normal">
+                    <i class="fa-regular fa-star text-[#ffa900]"></i>
+                    <i class="fa-regular fa-star text-[#ffa900]"></i>
+                    <i class="fa-regular fa-star text-[#ffa900]"></i>
+                    <i class="fa-regular fa-star text-[#ffa900]"></i>
+                    <i class="fa-regular fa-star text-[#ffa900]"></i>
+                </div>
+                <div class="price ml-[9px] mr-[9px]">
+                    <p class="text-center text-[15px] font-medium">&euro;19.85</p>
+                </div>
+            </div>
+            <div class="prod-images pl-[12px] pr-[12px] mb-[25px]">
+                <img class="w-[100%] lg:w-[276px]" src="assets/fashion prod img 6.jpg" alt="" width="276px">
+                <h3 class="text-center text-base font-normal mt-[20px]">Lorem ipsum fashion female coat</h3>
+                <div class="rating text-center mt-[3px] mb-[3px] font-normal">
+                    <i class="fa-regular fa-star text-[#ffa900]"></i>
+                    <i class="fa-regular fa-star text-[#ffa900]"></i>
+                    <i class="fa-regular fa-star text-[#ffa900]"></i>
+                    <i class="fa-regular fa-star text-[#ffa900]"></i>
+                    <i class="fa-regular fa-star text-[#ffa900]"></i>
+                </div>
+                <div class="price ml-[9px] mr-[9px]">
+                    <p class="text-center text-[15px] font-medium">&euro;33.3 - <span class="line-through">&euro;55.5</span></p>
+                </div>
+            </div>
+            <div class="prod-images pl-[12px] pr-[12px] mb-[25px]">
+                <img class="w-[100%] lg:w-[276px]" src="assets/fashion prod img 7.jpg" alt="" width="276px">
+                <h3 class="text-center text-base font-normal mt-[20px]">Lorem ipsum kids seven</h3>
+                <div class="rating text-center mt-[3px] mb-[3px] font-normal">
+                    <i class="fa-regular fa-star text-[#ffa900]"></i>
+                    <i class="fa-regular fa-star text-[#ffa900]"></i>
+                    <i class="fa-regular fa-star text-[#ffa900]"></i>
+                    <i class="fa-regular fa-star text-[#ffa900]"></i>
+                    <i class="fa-regular fa-star text-[#ffa900]"></i>
+                </div>
+                <div class="price ml-[9px] mr-[9px]">
+                    <p class="text-center text-[15px] font-medium">&euro;33.3 - <span class="line-through">&euro;55.5</span></p>
+                </div>
+            </div>
+            <div class="prod-images pl-[12px] pr-[12px] mb-[25px]">
+                <img class="w-[100%] lg:w-[276px]" src="assets/fashion prod img 8.jpg" alt="" width="276px">
+                <h3 class="text-center text-base font-normal mt-[20px]">Lorem ipsum jacket</h3>
+                <div class="rating text-center mt-[3px] mb-[3px] font-normal">
+                    <i class="fa-regular fa-star text-[#ffa900]"></i>
+                    <i class="fa-regular fa-star text-[#ffa900]"></i>
+                    <i class="fa-regular fa-star text-[#ffa900]"></i>
+                    <i class="fa-regular fa-star text-[#ffa900]"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <div class="price ml-[9px] mr-[9px]">
+                    <p class="text-center text-[15px] font-medium">&euro;11.2 - <span class="line-through">&euro;12.45</span></p>
+                </div>
+            </div>
+        </div>
+       </div>
+       <!-- Blog section -->
+        <div class="blog ml-[32px] mr-[32px] pl-[12px] pr-[12px] mb-[110px]">
+            <div class="blog-sec-title text-center mb-[65px] text-3xl font-semibold">
+                <h2>- OUR BLOG -</h2>
+            </div>
+            <div class="blog-images grid gap-y-10 sm:grid-cols-2 grid-cols-1 lg:grid-cols-3 ">
+
+                <div class="blog-image-1  pl-[12px] pr-[12px] relative ">
+                    <div class="blog-content w-[320px] text-center absolute left-[35px] bottom-[-25px]  bg-white pt-[14px] pb-[14px] pl-[44px] pr-[44px]">
+                        <h3 class="mb-[5px] text-xl font-medium">A guide to latest trends</h3>
+                        <span class="text-sm font-normal italic text-[#666]">By Admin</span>
+                    </div>
+                    <img class=" w-[100%] sm:w-[376px]"  src="assets/blog-1.jpg" alt="" width="376px">
+                </div>
+                
+                <div class="blog-image-2  pl-[12px] pr-[12px] relative">
+                    <div class="blog-content  w-[320px] text-center absolute left-[35px] bottom-[-50px]  bg-white pt-[14px] pb-[14px] pl-[44px] pr-[44px]">
+                        <h3 class="mb-[5px] text-xl font-medium">Five ways to lead a happy life</h3>
+                        <span class="text-sm font-normal italic text-[#666]">By Admin</span>
+                    </div>
+                    <img class=" w-[100%] sm:w-[376px]" src="assets/blog-2.jpg" alt="" width="376px">
+                </div>
+
+                <div class="blog-image-3  pl-[12px] pr-[12px] relative">
+                    <div class="blog-content  w-[320px] text-center absolute left-[35px] bottom-[-50px]  bg-white pt-[14px] pb-[14px] pl-[44px] pr-[44px]">
+                        <h3 class="mb-[5px] text-xl font-medium">Tips on having a happy life</h3>
+                        <span class="text-sm font-normal italic text-[#666]">By Admin</span>
+                    </div>
+                    <img class=" w-[100%] sm:w-[376px]" src="assets/blog-3.jpg" alt="" width="376px">
+                </div>
+            </div>
+        </div>
+        <!-- footer section -->
+         <footer class="bg-[#f6f6f8] pt-[100px] pb-[70px]">
+            <div class="footer-content grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-5 ml-[32px] mr-[32px] pl-[12px] pr-[12px]">
+                <div class="rights flex flex-col  pl-[12px] pr-[12px] mb-[30px]">
+                    <img class="mt-[41px] mb-[12px]" src="assets/flone-logo.png" alt="" width="103px">
+                    <p class="text-sm font-normal">&copy;2024 Flone.</p>
+                    <p class="text-sm font-normal">All Rights Reserved</p>
+                </div>
+                <div class="about flex flex-col pl-[12px] pr-[12px] mb-[30px]">
+                    <ul>
+                        <li><h3 class="mb-[16px] text-base font-medium">ABOUT US</h3></li>
+                        <li class="mb-[11px] text-sm font-normal text-[#5d5d5d]">About us</li>
+                        <li class="mb-[11px] text-sm font-normal text-[#5d5d5d]">Store location</li>
+                        <li class="mb-[11px] text-sm font-normal text-[#5d5d5d]">Contact</li>
+                        <li class="mb-[11px] text-sm font-normal text-[#5d5d5d]">Orders tracking</li>
+                    </ul>
+                </div>
+                <div class="useful flex flex-col pl-[12px] pr-[12px] mb-[30px]">
+                    <ul>
+                        <li><h3 class="mb-[16px] text-base font-medium">USEFUL LINKS</h3></li>
+                        <li class="mb-[11px] text-sm font-normal text-[#5d5d5d]">Returns</li>
+                        <li class="mb-[11px] text-sm font-normal text-[#5d5d5d]">Support Policy</li>
+                        <li class="mb-[11px] text-sm font-normal text-[#5d5d5d]">Size guide</li>
+                        <li class="mb-[11px] text-sm font-normal text-[#5d5d5d]">FAQs</li>
+                    </ul>
+                </div>
+                <div class="follow flex flex-col pl-[12px] pr-[12px] mb-[30px]">
+                    <ul>
+                        <li><h3 class="mb-[16px] text-base font-medium">FOLLOW US</h3></li>
+                        <li class="mb-[11px] text-sm font-normal text-[#5d5d5d]">Facebook</li>
+                        <li class="mb-[11px] text-sm font-normal text-[#5d5d5d]">Twitter</li>
+                        <li class="mb-[11px] text-sm font-normal text-[#5d5d5d]">Instagram</li>
+                        <li class="mb-[11px] text-sm font-normal text-[#5d5d5d]">Youtube</li>
+                    </ul>
+                </div>
+                <div class="subscribe flex flex-col pl-[12px] pr-[12px] mb-[30px]">
+                    <h3 class="mb-[16px] text-base font-medium">SUBSCRIBE</h3>
+                    <p class="mb-[20px] text-sm font-normal text-[#5d5d5d]">Get E-mail updates about our latest shop and special offers.</p>
+                    <input class="bg-[#f6f6f8] border-0 outline-0 text-[13px] font-normal pt-[2px] pr-[10px] pb-[2px]  border-b-4 border-[#ebebeb]" type="email" name="email" id="" placeholder="Enter your email address...">
+                    <div class="sub-btn mt-[13px]">
+                        <button class="text-sm font-normal text-[#313131] border-b-2 border-[#9b9b9c]">SUBSCRIBE</button>
+                    </div>
+                </div>
+            </div>
+         </footer>
+</body>
+</html>

@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fashion Three</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Navbar section -->
+    <nav
+      class="navbar grid grid-cols-2 justify-evenly lg:grid-cols-3 pl-[15px] pr-[15px] mt-[22px] mb-[32px]"
+    >
+      <div class="logo flex items-center pl-[12px] pr-[12px]">
+        <img
+          class="w-[103px]"
+          src="assets/flone-logo.png"
+          alt=""
+          width="103px"
+        />
+      </div>
+      <ul
+        class="nav-list hidden lg:flex gap-[20px] justify-center items-center"
+      >
+        <li class="text-[#555252] text-[13px] font-medium">Home</li>
+        <li class="text-[#555252] text-[13px] font-medium">Shop</li>
+        <li class="text-[#555252] text-[13px] font-medium">Collection</li>
+        <li class="text-[#555252] text-[13px] font-medium">Pages</li>
+        <li class="text-[#555252] text-[13px] font-medium">Blog</li>
+        <li class="text-[#555252] text-[13px] font-medium">Contact Us</li>
+      </ul>
+      <div class="icons flex justify-end pl-[12px] pr-[12px]">
+        <ul class="nav-icon-list flex gap-[30px] items-center">
+          <li><i class="fa-solid fa-magnifying-glass"></i></li>
+          <li><i class="fa-regular fa-user"></i></li>
+          <li><i class="fa-solid fa-shuffle"></i></li>
+          <li><i class="fa-regular fa-heart"></i></li>
+          <li><i class="fa-solid fa-store"></i></li>
+        </ul>
+      </div>
+    </nav>
+    <section class="f-3-main pt-[200px] pb-[120px]">
+      <div class="male-clothes lg:ml-[600px] pl-[12px] pr-[12px] text-center">
+        <h3 class="text-2xl font-medium">- Stylish -</h3>
+        <h1 class="text-[30px] mt-[28px] mb-[23px] lg:text-6xl font-medium">
+          Male Clothes
+        </h1>
+        <p class="text-lg font-normal mb-[44px]">30% off Summer vacation</p>
+        <div class="btn-shop mb-[44px]">
+          <a
+            class="uppercase text-black text-[18px] font-normal border border-[#333] pt-[19px] pb-[21px] pl-[50px] pr-[50px]"
+            href="#"
+            >Shop Now</a
+          >
+        </div>
+      </div>
+    </section>
+    <!-- Support section -->
+    <div class="support grid grid-cols-1 md:grid-cols-3 pt-[100px] pb-[60px]">
+      <div
+        class="shipping pl-[12px] pr-[12px] text-center mb-[30px] border-r-2 border-[#666]"
+      >
+        <div class="shipping-icon mr-[20px] flex justify-center">
+          <img src="assets/shipping.png" alt="" width="50px" />
+        </div>
+        <div class="ship-data">
+          <h5 class="text-lg font-normal mt-[15px] mb-[15px]">Free Shipping</h5>
+          <p class="text-sm font-normal text-[#666] ml-[38px] mr-[38px]">
+            Lorem ipsum dolor sit amet consectetu adipisicing elit sed
+          </p>
+        </div>
+      </div>
+      <div
+        class="support pl-[12px] pr-[12px] text-center mb-[30px] border-r-2 border-[#666]"
+      >
+        <div class="support-icon mr-[20px] flex justify-center">
+          <img src="assets/support.png" alt="" width="50px" />
+        </div>
+        <div class="support-data">
+          <h5 class="text-lg font-normal mt-[15px] mb-[15px]">Support 24/7</h5>
+          <p class="text-sm font-normal text-[#666] ml-[38px] mr-[38px]">
+            Lorem ipsum dolor sit amet consectetu adipisicing elit sed
+          </p>
+        </div>
+      </div>
+      <div class="money pl-[12px] pr-[12px] text-center mb-[30px]">
+        <div class="money-icon mr-[20px] flex justify-center">
+          <img src="assets/money.png" alt="" width="50px" />
+        </div>
+        <div class="money-data">
+          <h5 class="text-lg font-normal mt-[15px] mb-[15px]">Money Return</h5>
+          <p class="text-sm font-normal text-[#666] ml-[38px] mr-[38px]">
+            Lorem ipsum dolor sit amet consectetu adipisicing elit sed
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- fashion three production section -->
+    <div class="prod pb-[60px] pl-[12px] pr-[12px]">
+      <!-- New arrival section -->
+      <div class="arrival text-center mb-[60px]">
+        <h1 class="text-[30px] font-semibold pb-[15px] mb-[15px]">
+          New Arrival
+        </h1>
+        <p class="text-[14px] font-normal text-[#333]">
+          Lorem ipsum dolor sit amet conse ctetu.
+        </p>
+      </div>
+      <!-- product section -->
+      <div class="prod-three grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5">
+        <div class="images-f-3 mb-[25px] pl-[12px] pr-[12px]">
+          <img
+            class="w-[100%] lg:w-[217px]"
+            src="assets/f-3 img 1.jpg"
+            alt=""
+            width="217px"
+          />
+          <div
+            class="data mt-[20px] flex justify-between lg:flex lg:gap-[70px]"
+          >
+            <div class="headin mb-[6px]">
+              <h3 class="text-[16px]">Accessories one</h3>
+            </div>
+            <div class="heart">
+              <i class="fa-regular fa-heart"></i>
+            </div>
+          </div>
+
+          <div class="price">
+            <p class="text-[15px] font-medium">
+              &euro;2.79 -
+              <span class="text-[#fa6bff] line-through">&euro;3.1</span>
+            </p>
+          </div>
+        </div>
+        <div class="images-f-3 mb-[25px] pl-[12px] pr-[12px]">
+          <img
+            class="w-[100%] lg:w-[217px]"
+            src="assets/f-3 img 2.jpg"
+            alt=""
+            width="217px"
+          />
+          <div
+            class="data mt-[20px] flex justify-between lg:flex lg:gap-[40px]"
+          >
+            <div class="headin mb-[6px]">
+              <h3 class="text-[16px]">Accessories three</h3>
+            </div>
+            <div class="heart">
+              <i class="fa-regular fa-heart"></i>
+            </div>
+          </div>
+
+          <div class="price">
+            <p class="text-[15px] font-medium">&euro;12.5</p>
+          </div>
+        </div>
+        <div class="images-f-3 pl-[12px] pr-[12px]">
+          <img
+            class="w-[100%] lg:w-[217px]"
+            src="assets/f-3 img 3.jpg"
+            alt=""
+            width="217px"
+          />
+          <div
+            class="data mt-[20px] flex justify-between lg:flex lg:gap-[60px]"
+          >
+            <div class="headin mb-[6px]">
+              <h3 class="text-[16px]">Accessories five</h3>
+            </div>
+            <div class="heart">
+              <i class="fa-regular fa-heart"></i>
+            </div>
+          </div>
+
+          <div class="price">
+            <p class="text-[15px] font-medium">
+              &euro;9.88 -
+              <span class="text-[#fa6bff] line-through">&euro;12.35</span>
+            </p>
+          </div>
+        </div>
+        <div class="images-f-3 pl-[12px] pr-[12px]">
+          <img
+            class="w-[100%] lg:w-[217px]"
+            src="assets/f-3 img 4.jpg"
+            alt=""
+            width="217px"
+          />
+          <div
+            class="data mt-[20px] flex justify-between lg:flex lg:gap-[70px]"
+          >
+            <div class="headin mb-[6px]">
+              <h3 class="text-[16px]">Accessories six</h3>
+            </div>
+            <div class="heart">
+              <i class="fa-regular fa-heart"></i>
+            </div>
+          </div>
+
+          <div class="price">
+            <p class="text-[15px] font-medium">
+              &euro;9.96 -
+              <span class="text-[#fa6bff] line-through">&euro;12.45</span>
+            </p>
+          </div>
+        </div>
+        <div class="images-f-3 pl-[12px] pr-[12px]">
+          <img
+            class="w-[100%] lg:w-[217px]"
+            src="assets/f-3 img 5.jpg"
+            alt=""
+            width="217px"
+          />
+          <div
+            class="data mt-[20px] flex justify-between lg:flex lg:gap-[50px]"
+          >
+            <div class="headin mb-[6px]">
+              <h3 class="text-[16px]">Accessories seven</h3>
+            </div>
+            <div class="heart">
+              <i class="fa-regular fa-heart"></i>
+            </div>
+          </div>
+
+          <div class="price">
+            <p class="text-[15px] font-medium">
+              &euro;2.19 -
+              <span class="text-[#fa6bff] line-through">&euro;2.43</span>
+            </p>
+          </div>
+        </div>
+        <div class="images-f-3 pl-[12px] pr-[12px]">
+          <img
+            class="w-[100%] lg:w-[217px]"
+            src="assets/f-3 img 6.jpg"
+            alt=""
+            width="217px"
+          />
+          <div
+            class="data mt-[20px] flex justify-between lg:flex lg:gap-[60px]"
+          >
+            <div class="headin mb-[6px]">
+              <h3 class="text-[16px]">Accessories eight</h3>
+            </div>
+            <div class="heart">
+              <i class="fa-regular fa-heart"></i>
+            </div>
+          </div>
+
+          <div class="price">
+            <p class="text-[15px] font-medium">
+              &euro;9.38 -
+              <span class="text-[#fa6bff] line-through">&euro;13.4</span>
+            </p>
+          </div>
+        </div>
+        <div class="images-f-3 pl-[12px] pr-[12px]">
+          <img
+            class="w-[100%] lg:w-[217px]"
+            src="assets/f-3 img 7.jpg"
+            alt=""
+            width="217px"
+          />
+          <div
+            class="data mt-[20px] flex justify-between lg:flex lg:gap-[60px]"
+          >
+            <div class="headin mb-[6px]">
+              <h3 class="text-[16px]">Accessories nine</h3>
+            </div>
+            <div class="heart">
+              <i class="fa-regular fa-heart"></i>
+            </div>
+          </div>
+
+          <div class="price">
+            <p class="text-[15px] font-medium">
+              &euro;3.67 -
+              <span class="text-[#fa6bff] line-through">&euro;5.24</span>
+            </p>
+          </div>
+        </div>
+        <div class="images-f-3 pl-[12px] pr-[12px]">
+          <img
+            class="w-[100%] lg:w-[217px]"
+            src="assets/f-3 img 8.jpg"
+            alt=""
+            width="217px"
+          />
+          <div
+            class="data mt-[20px] flex justify-between lg:flex lg:gap-[60px]"
+          >
+            <div class="headin mb-[6px]">
+              <h3 class="text-[16px]">Accessories ten</h3>
+            </div>
+            <div class="heart">
+              <i class="fa-regular fa-heart"></i>
+            </div>
+          </div>
+
+          <div class="price">
+            <p class="text-[15px] font-medium">&euro;2.2</p>
+          </div>
+        </div>
+        <div class="images-f-3 pl-[12px] pr-[12px]">
+          <img
+            class="w-[100%] lg:w-[217px]"
+            src="assets/f-3 img 9.jpg"
+            alt=""
+            width="217px"
+          />
+          <div
+            class="data mt-[20px] flex justify-between lg:flex lg:gap-[40px]"
+          >
+            <div class="headin mb-[6px]">
+              <h3 class="text-[16px]">Accessories eleven</h3>
+            </div>
+            <div class="heart">
+              <i class="fa-regular fa-heart"></i>
+            </div>
+          </div>
+
+          <div class="price">
+            <p class="text-[15px] font-medium">
+              &euro;10.12 -
+              <span class="text-[#fa6bff] line-through">&euro;12.65</span>
+            </p>
+          </div>
+        </div>
+        <div class="images-f-3 pl-[12px] pr-[12px]">
+          <img
+            class="w-[100%] lg:w-[217px]"
+            src="assets/f-3 img 10.jpg"
+            alt=""
+            width="217px"
+          />
+          <div
+            class="data mt-[20px] flex justify-between lg:flex lg:gap-[40px]"
+          >
+            <div class="headin mb-[6px]">
+              <h3 class="text-[16px]">Accessories twelve</h3>
+            </div>
+            <div class="heart">
+              <i class="fa-regular fa-heart"></i>
+            </div>
+          </div>
+
+          <div class="price">
+            <p class="text-[15px] font-medium">&euro;9.52</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Blog section -->
+    <div class="blog ml-[32px] mr-[32px] pl-[12px] pr-[12px] mb-[110px]">
+      <div class="blog-sec-title text-center mb-[65px] text-3xl font-semibold">
+        <h2>- OUR BLOG -</h2>
+      </div>
+      <div
+        class="blog-images grid gap-y-10 sm:grid-cols-2 grid-cols-1 lg:grid-cols-3"
+      >
+        <div class="blog-image-1 pl-[12px] pr-[12px] relative">
+          <div
+            class="blog-content w-[320px] text-center absolute left-[35px] bottom-[-25px] bg-white pt-[14px] pb-[14px] pl-[44px] pr-[44px]"
+          >
+            <h3 class="mb-[5px] text-xl font-medium">
+              A guide to latest trends
+            </h3>
+            <span class="text-sm font-normal italic text-[#666]">By Admin</span>
+          </div>
+          <img
+            class="w-[100%] sm:w-[376px]"
+            src="assets/blog-1.jpg"
+            alt=""
+            width="376px"
+          />
+        </div>
+
+        <div class="blog-image-2 pl-[12px] pr-[12px] relative">
+          <div
+            class="blog-content w-[320px] text-center absolute left-[35px] bottom-[-50px] bg-white pt-[14px] pb-[14px] pl-[44px] pr-[44px]"
+          >
+            <h3 class="mb-[5px] text-xl font-medium">
+              Five ways to lead a happy life
+            </h3>
+            <span class="text-sm font-normal italic text-[#666]">By Admin</span>
+          </div>
+          <img
+            class="w-[100%] sm:w-[376px]"
+            src="assets/blog-2.jpg"
+            alt=""
+            width="376px"
+          />
+        </div>
+
+        <div class="blog-image-3 pl-[12px] pr-[12px] relative">
+          <div
+            class="blog-content w-[320px] text-center absolute left-[35px] bottom-[-50px] bg-white pt-[14px] pb-[14px] pl-[44px] pr-[44px]"
+          >
+            <h3 class="mb-[5px] text-xl font-medium">
+              Tips on having a happy life
+            </h3>
+            <span class="text-sm font-normal italic text-[#666]">By Admin</span>
+          </div>
+          <img
+            class="w-[100%] sm:w-[376px]"
+            src="assets/blog-3.jpg"
+            alt=""
+            width="376px"
+          />
+        </div>
+      </div>
+    </div>
+    <!-- footer section -->
+    <footer class="bg-[#f6f6f8] pt-[100px] pb-[70px]">
+      <div
+        class="footer-content grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-5 ml-[32px] mr-[32px] pl-[12px] pr-[12px]"
+      >
+        <div class="rights flex flex-col pl-[12px] pr-[12px] mb-[30px]">
+          <img
+            class="mt-[41px] mb-[12px]"
+            src="assets/flone-logo.png"
+            alt=""
+            width="103px"
+          />
+          <p class="text-sm font-normal">&copy;2024 Flone.</p>
+          <p class="text-sm font-normal">All Rights Reserved</p>
+        </div>
+        <div class="about flex flex-col pl-[12px] pr-[12px] mb-[30px]">
+          <ul>
+            <li><h3 class="mb-[16px] text-base font-medium">ABOUT US</h3></li>
+            <li class="mb-[11px] text-sm font-normal text-[#5d5d5d]">
+              About us
+            </li>
+            <li class="mb-[11px] text-sm font-normal text-[#5d5d5d]">
+              Store location
+            </li>
+            <li class="mb-[11px] text-sm font-normal text-[#5d5d5d]">
+              Contact
+            </li>
+            <li class="mb-[11px] text-sm font-normal text-[#5d5d5d]">
+              Orders tracking
+            </li>
+          </ul>
+        </div>
+        <div class="useful flex flex-col pl-[12px] pr-[12px] mb-[30px]">
+          <ul>
+            <li>
+              <h3 class="mb-[16px] text-base font-medium">USEFUL LINKS</h3>
+            </li>
+            <li class="mb-[11px] text-sm font-normal text-[#5d5d5d]">
+              Returns
+            </li>
+            <li class="mb-[11px] text-sm font-normal text-[#5d5d5d]">
+              Support Policy
+            </li>
+            <li class="mb-[11px] text-sm font-normal text-[#5d5d5d]">
+              Size guide
+            </li>
+            <li class="mb-[11px] text-sm font-normal text-[#5d5d5d]">FAQs</li>
+          </ul>
+        </div>
+        <div class="follow flex flex-col pl-[12px] pr-[12px] mb-[30px]">
+          <ul>
+            <li><h3 class="mb-[16px] text-base font-medium">FOLLOW US</h3></li>
+            <li class="mb-[11px] text-sm font-normal text-[#5d5d5d]">
+              Facebook
+            </li>
+            <li class="mb-[11px] text-sm font-normal text-[#5d5d5d]">
+              Twitter
+            </li>
+            <li class="mb-[11px] text-sm font-normal text-[#5d5d5d]">
+              Instagram
+            </li>
+            <li class="mb-[11px] text-sm font-normal text-[#5d5d5d]">
+              Youtube
+            </li>
+          </ul>
+        </div>
+        <div class="subscribe flex flex-col pl-[12px] pr-[12px] mb-[30px]">
+          <h3 class="mb-[16px] text-base font-medium">SUBSCRIBE</h3>
+          <p class="mb-[20px] text-sm font-normal text-[#5d5d5d]">
+            Get E-mail updates about our latest shop and special offers.
+          </p>
+          <input
+            class="bg-[#f6f6f8] border-0 outline-0 text-[13px] font-normal pt-[2px] pr-[10px] pb-[2px] border-b-4 border-[#ebebeb]"
+            type="email"
+            name="email"
+            id=""
+            placeholder="Enter your email address..."
+          />
+          <div class="sub-btn mt-[13px]">
+            <button
+              class="text-sm font-normal text-[#313131] border-b-2 border-[#9b9b9c]"
+            >
+              SUBSCRIBE
+            </button>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

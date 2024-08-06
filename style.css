@@ -1,0 +1,97 @@
+*{
+    font-family: "Poppins", sans-serif;
+}
+/* index file styles */
+.nav{
+    background-image: url(assets/Untitled\ design\ \(1\).png);
+   
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+.fully{
+    background-image: url(assets/brook-landing-slider-bg.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 100%;
+}
+.immensity{
+    background-image: url(assets/brook-landing-immensity-of-template-bg.jpg);
+}
+.flone-circle{
+    background-image: url(assets/slider-landing-02-slide-image-circle.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 100%;
+}
+.footer-image1{
+    background-image: url(assets/brook-landing-footer-bg-image-01.png);
+    background-position: bottom left;
+    background-repeat: no-repeat;
+
+}
+.footer-image-2{
+    background-image: url(assets/brook-landing-footer-bg-image-02.png);
+    background-position: top right;
+    background-repeat: no-repeat;
+   
+    
+}
+/* flone home page media query */
+@media(max-width:999px){
+    .nav{
+        background-image: url(assets/Untitled\ design\ \(1\).png);
+        background-position: bottom right;
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media(max-width:999px){
+    .fully{
+        background-image: url(assets/brook-landing-slider-bg.png);
+        background-position: bottom center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 100%;
+        height: 100%;
+    }
+}
+
+/* fashion six style */
+.fashion-six-nav{
+    background-image: url(assets/fashion-6\ bg\ image.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+/* fashion 3 style */
+.f-3-main{
+    background-image: url(assets/fashion-3\ bg\ image.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+@media(max-width:640px){
+    .f-3-main{
+        background-image: url(assets/fashion-3\ bg\ image.jpg);
+        background-position:  center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+    }
+}
